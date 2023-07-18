@@ -1,0 +1,98 @@
+    *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    }
+
+    body{
+        background-color: lightgrey;
+    }
+    header{
+        width: 100%;
+        height: 50px;
+        background-color: white;
+    }
+    h1{
+        padding: 5px;
+        text-align: center;
+    }
+    section{
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+      
+    }
+    .tarjetas{
+        margin: 30px;
+        width: 50%;
+        height: 50%;
+        background-color: white;
+        width: 40%;
+        height: 50%;
+    
+    }
+    
+    .encabezado{
+        display: flex;
+        justify-content: space-between;
+        margin: 5px;
+        align-items: center;
+    }
+    .cabecera {
+        display: flex;
+    }
+    .cabecera h4{
+        padding-top: 5px;  
+    }
+    .cabecera-2 img{
+        width: 30px;
+        height: 30px;
+    }
+    
+    
+    .cuerpo{
+        width: 100%;
+    }
+    
+    .cuerpo img{
+        width: 100%;
+        object-fit: cover;
+    }
+   
+
+    .cuerpo .iconos-contenedor{
+        display: flex;
+        justify-content: space-between;
+        margin-left: 5px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+   .cuerpo .iconos-contenedor img{
+    width: 25px;
+    height: 25px;
+    padding-left: 5px;
+   }
+
+   .cuerpo .iconos-derecho{
+    padding-right: 10px;
+   }
+
+   .cuerpo p{
+    margin: 4px;
+    padding: 5px;
+    text-align: start;
+    font-size: 13px;
+    color: rgb(95, 95, 95)
+}
+    .cuerpo p strong{
+    color: black;
+    font-weight: bold;
+}
+
+    .cuerpo p:nth-child(even){
+        padding-bottom: 20px;
+}
